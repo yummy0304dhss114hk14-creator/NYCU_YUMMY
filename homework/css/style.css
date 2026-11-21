@@ -1,0 +1,517 @@
+.rb-10{
+  width: 100% ;
+  height: 310px ;
+  object-fit: cover;
+  border-radius: 10px ;  object-position: center 25%
+}
+.rb20{color: rgb(0, 0, 0);font-size:20px;line-height: 1.8;font-family: "Noto Serif TC", serif;font-optical-sizing: auto;font-weight: 400;font-style: normal;}
+.card{font-family: "Noto Serif TC", serif;}
+.navbar{font-family: "Caveat", serif; font-weight: 400; font-style: normal;}
+body {background-color: #FFF7E8;
+    color: #49372B;
+    font-family: "Noto Sans TC", sans-serif;}
+
+/* 導覽列 */
+.navbar {
+    background-color: #FFF7E8 !important;
+    border-bottom: 1px solid #E8D8C4;
+}
+
+.navbar-brand {
+    color: #F47A38 !important;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: #49372B !important;
+}
+
+/* 區塊標題 */
+h1, h2, h3 {
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+/* 作品卡片 */
+.card {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgba(73, 55, 43, 0.08);
+    transition: transform 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* 按鈕 */
+.btn {
+    border-radius: 999px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #F47A38;
+    border-color: #F47A38;
+}
+
+.btn-primary:hover {
+    background-color: #D95F24;
+    border-color: #D95F24;
+}
+/* 首頁主視覺 */
+.hero-section {
+    padding: 100px 20px 80px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.hero-section {
+    background-color: #541D24;
+    color: #FFF4DF;
+    text-align: center;
+    padding: 55px 20px 65px;
+}
+
+.hero-label {
+    color: #FF9A52;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin-bottom: 24px;
+}
+
+.hero-logo {
+    display: block;
+    width: min(100%, 430px);
+    height: auto;
+    margin: 0 auto 28px;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.hero-bottom span {
+    border: 2px solid #FFF4DF;
+    border-radius: 50px;
+    padding: 8px 17px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.hero-bottom span:nth-child(2) {
+    background-color: #FF9A52;
+    color: #541D24;
+    border-color: #FF9A52;
+}
+
+.hero-button {
+    background-color: #FFF4DF;
+    color: #541D24;
+    border: 2px solid #FFF4DF;
+    border-radius: 0;
+    padding: 12px 24px;
+    font-weight: 800;
+    box-shadow: 4px 4px 0 #FF9A52;
+}
+
+.hero-button:hover {
+    background-color: #FF9A52;
+    border-color: #FF9A52;
+    color: #541D24;
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 40px 16px 50px;
+    }
+
+    .hero-logo {
+        width: min(100%, 340px);
+    }
+}
+/* Loha Studio 導覽列 */
+.loha-navbar {
+    background-color: #541D24 !important;
+    padding: 16px 5%;
+    border-bottom: none;
+}
+
+.loha-navbar .navbar-brand {
+    color: #FFF4DF !important;
+    font-family: "Caveat", cursive;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.loha-navbar .nav-link {
+    color: #FFF4DF !important;
+    margin-left: 18px;
+    font-weight: 600;
+}
+
+.loha-navbar .nav-link:hover {
+    color: #FF9A52 !important;
+}
+
+/* 作品區標題 */
+.section-heading {
+    background-color: #FFF7E8;
+    text-align: center;
+    padding: 65px 20px 35px;
+}
+
+.section-label {
+    color: #F47A38;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
+}
+
+.section-heading h2 {
+    color: #541D24;
+    font-size: clamp(36px, 5vw, 54px);
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.section-heading h2 span {
+    color: #F47A38;
+}
+
+.section-description {
+    color: #78685B;
+    margin-bottom: 0;
+}
+
+/* 作品卡片區 */
+.works-section {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.works-section .card {
+    height: 100%;
+    background-color: #FFFCF5;
+    border: 1px solid #E9D8C7;
+    border-radius: 8px;
+    box-shadow: 5px 5px 0 #541D24;
+    overflow: hidden;
+}
+
+.works-section .card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.works-section .card-body {
+    padding: 24px 20px;
+}
+
+.works-section .card-title {
+    color: #541D24;
+    font-weight: 800;
+}
+
+.works-section .card-text {
+    color: #78685B;
+    line-height: 1.8;
+}
+
+.works-section .btn-primary {
+    background-color: #F47A38 !important;
+    border: 2px solid #541D24 !important;
+    color: #541D24;
+    border-radius: 0;
+    font-weight: 800;
+    box-shadow: 3px 3px 0 #541D24;
+}
+
+.works-section .btn-primary:hover {
+    background-color: #541D24 !important;
+    color: #FFF7E8;
+}
+/* 首頁輪播圖 */
+#carouselExampleFade .carousel-item img {
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+    object-position: center;
+    background-color: #FFF7E8;
+}
+
+/* 手機版輪播圖 */
+@media (max-width: 768px) {
+    #carouselExampleFade .carousel-item img {
+        height: 300px;
+    }
+}
+
+/* 作品卡片圖片 */
+.works-section .card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+/* 輪播左右箭頭 */
+#carouselExampleFade .carousel-control-prev,
+#carouselExampleFade .carousel-control-next {
+    z-index: 10;
+    width: 8%;
+    opacity: 1;
+}
+
+/* 輪播箭頭樣式 */
+#carouselExampleFade .carousel-control-prev-icon,
+#carouselExampleFade .carousel-control-next-icon {
+    background-color: #49372B;
+    border-radius: 50%;
+    background-size: 60% 60%;
+}
+.works-section .card img.work-img-first {
+    object-position: center 20%;
+}
+.navbar-toggler {
+    border: 1px solid #541D24;
+}
+
+.navbar-toggler-icon {
+    background-image: none !important;
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 22px;
+    border-top: 3px solid #FFF7E8;
+    border-bottom: 3px solid #FFF7E8;
+}
+
+.navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 100%;
+    border-top: 3px solid #FFF7E8;
+}
+
+.works-section .card {
+    background-color: #FFFCF5;
+    border: 1px solid #E8DCCB;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(73, 55, 43, 0.08);
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+/* 滑鼠移到卡片上 */
+.works-section .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(73, 55, 43, 0.14);
+}
+
+/* 卡片文字區 */
+.works-section .card .card-body {
+    padding: 20px;
+}
+
+/* 卡片標題 */
+.works-section .card .card-title {
+    color: #541D24;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+/* 作品區塊標題 */
+.section-heading {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+/* 作品小標籤 */
+.section-label {
+    display: inline-block;
+    color: #9B6A45;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* 作品主標題 */
+.section-heading h2 {
+    color: #541D24;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin-bottom: 14px;
+}
+
+/* 作品介紹文字 */
+.section-description {
+    color: #806D5F;
+    font-size: 15px;
+    line-height: 1.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* 首頁主視覺 */
+.hero-section {
+    text-align: center;
+    padding: 70px 20px 60px;
+}
+
+/* 首頁小標籤 */
+.hero-label {
+    color: #9B6A45;
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin-bottom: 18px;
+}
+
+/* 首頁主標題 */
+.hero-logo {
+    color: #541D24;
+    font-size: clamp(36px, 6vw, 64px);
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1.3;
+    margin-bottom: 24px;
+}
+
+/* 首頁按鈕 */
+.hero-button {
+    display: inline-block;
+    background-color: #541D24;
+    color: #FFF7E8;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.25s ease,
+                transform 0.25s ease;
+}
+
+/* 滑鼠移入效果 */
+.hero-button:hover {
+    background-color: #7A343B;
+    color: #FFF7E8;
+    transform: translateY(-2px);
+}
+
+/* 手機版首頁間距 */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 45px 16px 40px;
+    }
+
+    .hero-logo {
+        letter-spacing: 1px;
+    }
+}
+/* 地圖區塊 */
+#location {
+    padding: 60px 20px;
+}
+
+/* 地圖外框 */
+#location iframe {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    margin: 30px auto 0;
+    border: 0;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(73, 55, 43, 0.12);
+}
+
+/* 手機版地圖 */
+@media (max-width: 768px) {
+    #location {
+        padding: 40px 16px;
+    }
+
+    #location iframe {
+        height: 300px;
+    }
+}
+/* 歡迎加入區塊 */
+#join {
+    padding: 60px 20px;
+    background-color: #FFF7E8;
+}
+
+/* Google 表單 */
+#join iframe {
+    display: block;
+    width: 100%;
+    max-width: 720px;
+    height: 850px;
+    margin: 30px auto 0;
+    border: 1px solid #E8DCCB;
+    border-radius: 12px;
+    background-color: #FFFCF5;
+    box-shadow: 0 5px 18px rgba(73, 55, 43, 0.10);
+}
+
+/* 手機版表單 */
+@media (max-width: 768px) {
+    #join {
+        padding: 40px 16px;
+    }
+
+    #join iframe {
+        height: 950px;
+    }
+}
+/* 關於我們*/
+#lohaa .accordion-item {
+    background-color: #FFFCF5;
+    border: 1px solid #E8DCCB;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/*標題 */
+#lohaa .accordion-button {
+    background-color: #FFFCF5;
+    color: #541D24;
+    font-weight: 600;
+    padding: 18px 20px;
+    box-shadow: none;
+}
+
+/* 展開標題 */
+#lohaa .accordion-button:not(.collapsed) {
+    background-color: #541D24;
+    color: #FFF7E8;
+}
+
+/* 展開收合箭頭 */
+#lohaa .accordion-button::after {
+    filter: none;
+}
+
+#lohaa .accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+}
+
+#lohaa .accordion-body {
+    background-color: #FFFCF5;
+    color: #49372B;
+    line-height: 1.9;
+    padding: 20px;
+}
